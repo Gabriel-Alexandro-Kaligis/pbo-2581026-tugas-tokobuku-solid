@@ -20,9 +20,9 @@ public class Deposito extends Rekening implements BerBunga {
     public double getSukuBunga() {
         return sukuBunga;
     }
- ""
+
     @Override
     public String keterangan() {
-        return "Deposito, bunga " + sukuBunga + "% perbulan";
+        return "Deposito, bunga " + sukuBunga + "% per bulan";
     }
 }

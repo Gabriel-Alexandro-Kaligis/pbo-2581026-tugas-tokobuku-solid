@@ -1,6 +1,4 @@
-public class LaporanBank {
-
-}public class BankSolid {
+public class BankSolid {
     public static void main(String[] args) {
         Tabungan ani = new Tabungan(101, "Ani", 1000000, 2.5);
         Tabungan citra = new Tabungan(102, "Citra", 300000, 2.0);
