@@ -23,6 +23,6 @@ public class Deposito extends Rekening implements BerBunga {
  ""
     @Override
     public String keterangan() {
-        return "Deposito, bunga " + sukuBunga + "% per bulan";
+        return "Deposito, bunga " + sukuBunga + "% perbulan";
     }
 }
